@@ -1,0 +1,154 @@
+.card {
+  background-color: #ffffff;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.left {
+  flex: 1;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tag {
+  background-color: #f0f0f0;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.authorInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.author {
+  font-weight: bold;
+}
+
+.date {
+  font-size: 12px;
+  color: #888;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.description {
+  font-style: italic;
+  color: #444;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.markdown {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.editBtn,
+.deleteBtn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+  border: 1px solid;
+  text-decoration: none;
+  color: inherit;
+  user-select: none;
+  margin-top: 10px;
+}
+
+.editBtn {
+  border-color: #52c41a;
+  color: #52c41a;
+  background-color: transparent;
+  margin-right: 10px;
+}
+
+.editBtn:hover {
+  background-color: #28a745;
+  color: white;
+}
+
+.deleteBtn {
+  border-color: #f5222d;
+  color: #f5222d;
+  background-color: transparent;
+}
+
+.confirmPopup {
+  position: absolute;
+  top: 150px;
+  right: 40px;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.confirmPopup p {
+  margin-bottom: 0.5rem;
+}
+
+.confirmButtons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.confirmButtons button {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.confirmButtons button:first-child {
+  background-color: #ccc;
+  color: white;
+}
+
+.confirmButtons button:last-child {
+  background-color: #f44336;
+  color: white;
+}

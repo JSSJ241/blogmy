@@ -1,0 +1,92 @@
+.card {
+  max-width: 600px;
+  margin: 30px auto;
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  background-color: #1890ff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: -6px;
+}
+
+.tagRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  gap: 8px;
+}
+
+.tagInput {
+  padding: 6px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.deleteButton {
+  background-color: #fff;
+  color: red;
+  border: 1px solid red;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  height: 36px;
+}
+
+.addButton {
+  background-color: #fff;
+  border: 1px solid #1890ff;
+  color: #1890ff;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  height: 36px;
+}
+
+.text {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  resize: none;
+  outline: none;
+  transition: border 0.2s;
+  padding: 15px;
+}
+
+.tags {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}

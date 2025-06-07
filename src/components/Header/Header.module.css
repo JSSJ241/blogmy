@@ -1,0 +1,82 @@
+.header {
+  background-color: #fff;
+  box-shadow: 0 1px 3px;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.signup {
+  padding: 6px 12px;
+  border: 1px solid #52c41a;
+  border-radius: 4px;
+  color: #52c41a;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.signup:hover {
+  background-color: #52c41a;
+  color: #fff;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #000;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.logout {
+  border: 1px solid grey;
+  color: gray;
+  padding: 4px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.article {
+  border: 1px solid #52c41a;
+  color: #52c41a;
+  padding: 4px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  background-color: #fff;
+  cursor: pointer;
+}
